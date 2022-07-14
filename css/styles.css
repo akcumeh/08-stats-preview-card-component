@@ -21,23 +21,14 @@ body {
     margin: 0;
     padding: 0;
     border-radius: 15px 15px 0 0;
-    position: relative;
+    background-color: hsl(277, 64%, 61%);
 }
 
 .img01, .img02 {
     width: 100%;
     border-radius: inherit;
     z-index: -1;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: hsl(277, 64%, 61%);
-    opacity: 0.575;
+    mix-blend-mode: multiply;
 }
 
 h1, h2 {
